@@ -1,0 +1,393 @@
+
+
+
+
+
+
+
+h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Rubik', sans-serif;
+} 
+body,span,p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-header .container-fluid, .slider-section .container-fluid{
+    max-width: 1470px;
+}
+ul.our-primary-menu{}
+ul.our-primary-menu li{}
+ul.our-primary-menu li a{
+    text-decoration: none;
+    color: #111;
+    font-size: 16px;
+    padding: 0px 20px;
+    font-weight: 500;
+}
+ul.our-primary-menu li a:hover{
+
+}
+
+/* dropdwon menu */
+ul.our-primary-menu li{
+    position: relative;
+}
+.our-primary-menu li:first-child{
+    color: #e83b3e;
+}
+ul.our-primary-menu li ul{
+    width: 250px;
+    background:#fafafa;
+    box-shadow: 0 0 15px 0 rgb(0 0 0 / 10%);
+    position: absolute;
+    top: 180%;
+    left: 0;
+    padding: 10px;
+    opacity: 0;
+    visibility: hidden;
+
+    transition: .4s;
+}
+ul.our-primary-menu li:hover ul{
+    visibility: visible;
+    opacity: 1;
+    top: 160%;
+    
+}
+.our-primary-menu li a span {
+    font-size: 13px;
+    position: relative;
+    top: 2px;
+    left: 4px;
+    color: #e83b3e;
+}
+ul.our-primary-menu li ul li{
+    list-style: none;
+    padding: 10px 0px;
+}
+ul.our-primary-menu li ul li a{}
+
+.header-info{}
+.serch-icon {
+    width: 50px;
+    font-size: 23px;
+    margin-right: 10px;
+    border-right: 1px solid #111;
+}
+.serch-icon span{}
+.header-info-contact {}
+.header-info-icon span {
+    font-size: 33px;
+    text-align: center;
+    margin-right: 10px;
+    color: #e83b3e;
+}
+.header-info-contact span{}
+.header-info-icon-caption span{
+    color: #606060;
+}
+.header-info-icon-caption a{
+    color: #111;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.header-info-contact{
+    width: 200px;
+}
+
+body .btn-primary {
+    background: #e83b3e !important;
+    font-size: 16px;
+    border-color: #e83b3e;
+    padding: 9px 30px;
+    position: relative;
+    z-index: 1;
+}
+body .btn-primary:hover{
+    border-color: #111;
+}
+body .btn-primary::after{
+    content: "";
+    background: #111;
+    border-color: #111;
+    height:100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    transition: .4s;
+
+}
+body .btn-primary:hover::after{
+    width: 100%;
+}
+/* banner-section */
+.slider-section{
+    background:url(https://templates.envytheme.com/finix/default/assets/img/main-banner2.jpg) no-repeat;
+    background-size: cover;
+    background-position:  center;
+    background-attachment: fixed;
+}
+.slider-content-wrap{
+    height: 80vh;
+   display: flex; 
+   align-items: center;
+   position: relative;
+  
+}
+.social-header{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.social-header ul {
+    position: relative;
+}
+.social-header ul li{
+    list-style: none;
+}
+.social-header ul li span {
+	font-size: 17px;
+	margin-right: 50px;
+}
+.social-header ul li span::after {
+	content: "";
+	height: 1px;
+	width: 12%;
+	background: #111;
+	position: absolute;
+	top: 50%;
+	left: 96px;
+}
+.social-header ul li a {
+	color: #111;
+	padding: 0px 14px;
+}
+.slider-content h5{}
+.slider-content h1{
+    font-size: 50px;
+}
+.slider-content p{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img-about-section{
+    border-bottom: 1px solid #ddd;
+}
+
+/* about-section */
+.about-section{}
+.about-img{
+    position: relative;
+}
+.top-about-img {
+    background: url(./img/shape.png) no-repeat;
+    background-position: center;
+    position: absolute;
+    right: 84px;
+    bottom: -12px;
+    height: 200px;
+    width: 206px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* about-company-caption */
+.about-company-caption{}
+.about-company-caption h5 {
+    color: #e73c3e;
+}
+.about-company-caption h1 {
+	font-weight: 600;
+}
+.about-company-caption p {
+    font-size: 18px;
+    color: #606060;
+}
+.about-company-caption strong {
+	color: #606060;
+}g{}
+.about-company-caption ul{}
+.about-company-caption ul li::before {
+	content: "\f00c";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	color: #e73c3e;
+	margin-right: 10px;
+}
+
+body .btn-primary {
+    background: #e73c3e;
+    border-color: #e73c3e;
+    padding: 8px 22px;
+    transition: .4s;
+}
+
+body .btn-primary:hover{
+    background: #111;
+    border-color: #111;
+}
+
+
+/* why-choose-section */
+
+
+.why-choose-section{
+    background: #f9fafb;
+}
+.finix-title h6{}
+.finix-title h1{}
+.finix-title p{}
+
+
+
+.play-button-img{
+    position: relative;
+}
+.videobtn{
+    position: relative;
+}
+
+.videobtn a {
+    background: #fff;
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 50%;
+    color: red;
+    font-size: 39px;
+    position: absolute;
+    right: 239px;
+    bottom: 57px;
+}
+.videobtn a::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 70px;
+    width: 70px;
+    background: red;
+    border-radius: 50%;
+    animation: playbtn 3s ease-out infinite;
+}
+.videobtn a i:hover{
+    color: blue;
+    border-radius: 50%;
+}
+
+
+@keyframes playbtn{
+    0%,30%{
+        transform: scale(0);
+        opacity: 1;
+    }
+  
+    50%{
+        transform: scale(1);
+        opacity:.7 ;
+    }
+ 
+    100%{
+        transform: scale(2);
+        opacity:0 ;
+    }
+ 
+}
+
+
+
+
+
+.why-choose-card {
+    background: #fff;
+    padding: 23px;
+    line-height: 1.8rem;
+    position: relative;
+    overflow: hidden;
+    transition: .4s;
+
+    margin-bottom: 30px;
+}
+.margintop{
+    margin-top: -30px;
+}
+.why-choose-card::before {
+    content: "";
+    height: 95%;
+    width: 95%;
+    background: #fdebeb;
+    position: absolute;
+    top: -214px;
+    left: 8px;
+    border-radius: 50%;
+}
+.why-choose-card:hover{
+    transform: translateY(-12px);
+}
+
+
+.finix-card-icon{
+    position: relative;
+}
+.finix-card-icon i {
+    background: #fff;
+    color: red;
+    font-size: 50px;
+    position: absolute;
+    top: -13px;
+    left: 87px;
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
+    border-radius: 50%;
+    transition: .4s;
+    
+   
+}
+
+
+.why-choose-card:hover .finix-card-icon i{
+    background-color: red;
+    color: #fff;
+}
+
+
+.finix-card-icon i{}
+
+.finix-card-content{}
+.finix-card-content h2 {
+    font-weight: 600;
+}
+.finix-card-content p {
+    font-size: 17px;
+    color: #606060;
+}
+
